@@ -18,8 +18,6 @@ results = [calculate_ump(df, province) for province in provinces]
 for result in results:
     print(result)
 
-# calculate_ump(df, 'Jawa Tengah')
-# calculate_ump(df, 'Jawa Barat')
 # Creating a DataFrame
 result_df = pd.DataFrame(results, columns=['Province', 'tahun', 'ump'])
 
